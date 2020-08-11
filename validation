@@ -1,0 +1,3 @@
+if (bookTitle.isEmpty) {
+throw ('タイトルを入力してください');
+}
