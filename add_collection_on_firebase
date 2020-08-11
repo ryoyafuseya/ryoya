@@ -1,0 +1,6 @@
+Firestore.instance.collection('users').add(
+      {
+        'email': email,
+        'createdAt': Timestamp.now(),
+      },
+    );
