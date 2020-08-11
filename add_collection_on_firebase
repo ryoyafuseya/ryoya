@@ -1,3 +1,5 @@
+//Firebaseのデータベースにコレクションとして多くの情報を登録する時に使う
+//Ex) ユーザーをメールアドレスで管理する時
 Firestore.instance.collection('users').add(
       {
         'email': email,
